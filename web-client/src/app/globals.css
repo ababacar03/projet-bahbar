@@ -1,0 +1,71 @@
+@import "leaflet/dist/leaflet.css";
+@import "tailwindcss";
+
+html, body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+}
+
+body {
+  overflow-y: auto;
+}
+
+@theme {
+  /* Olive */
+  --color-olive-1: #111210;
+  --color-olive-2: #181917;
+  --color-olive-3: #212220;
+  --color-olive-4: #282A27;
+  --color-olive-5: #2F312E;
+  --color-olive-6: #383A36;
+  --color-olive-7: #454843;
+  --color-olive-8: #5C625B;
+  --color-olive-9: #687066;
+  --color-olive-10: #767D74;
+  --color-olive-11: #AFB5AD;
+  --color-olive-12: #ECEEEC;
+
+  /* Purple */
+  --color-purple-1: #18111B;
+  --color-purple-2: #1E1523;
+  --color-purple-3: #301C3B;
+  --color-purple-4: #3D224E;
+  --color-purple-5: #48295C;
+  --color-purple-6: #54346B;
+  --color-purple-7: #664282;
+  --color-purple-8: #8457AA;
+  --color-purple-9: #8E4EC6;
+  --color-purple-10: #9A5CD0;
+  --color-purple-11: #D19DFF;
+  --color-purple-12: #ECD9FA;
+
+  /* Brown */
+  --color-brown-1: #12110F;
+  --color-brown-2: #1C1816;
+  --color-brown-3: #28211D;
+  --color-brown-4: #322922;
+  --color-brown-5: #3E3128;
+  --color-brown-6: #4D3C2F;
+  --color-brown-7: #614A39;
+  --color-brown-8: #7C5F46;
+  --color-brown-9: #AD7F58;
+  --color-brown-10: #B88C67;
+  --color-brown-11: #DBB594;
+  --color-brown-12: #F2E1CA;
+
+  --color-background-custom: #1A1A2E;
+  --color-background-2-custom: #2D1E63;
+  --color-hover: #EF88FF;
+  --color-background-3-custom: #eaeaed;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
